@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "657177285152",
+    "firebase_url": "https://noicysupply.firebaseio.com",
+    "project_id": "noicysupply",
+    "storage_bucket": "noicysupply.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657177285152:android:576b22893d980663",
+        "android_client_info": {
+          "package_name": "com.Noicy.NoicyApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657177285152-enj1unehavinncpvag35t3a03sm54lsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Noicy.NoicyApp",
+            "certificate_hash": "a8f3fa6abf206fbe48d608c5f0df67f0719de959"
+          }
+        },
+        {
+          "client_id": "657177285152-oc1r8st20f97ln8toudatdku837cgtr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7mYkuuqa5aJM5DWon7Xy_GyFhbjnc1qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657177285152-oc1r8st20f97ln8toudatdku837cgtr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

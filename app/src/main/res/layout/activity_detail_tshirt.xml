@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:id="@+id/scrollbar_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ScrollViewCount">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/gambarbaju"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_toRightOf="@id/gambarbaju"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Baju :"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/nama_baju"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Baju"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Harga Baju :"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/harga_baju"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Harga"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+                    <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:text="Berat Produk"-->
+                    <!--android:id="@+id/berat_baju"-->
+                    <!--android:textColor="#000"-->
+                    <!--/>-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stok Baju :"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/stok_baju"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stok Produk"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:id="@+id/deskripsi_baju"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="20dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="#000"/>
+    </LinearLayout>
+</ScrollView>
